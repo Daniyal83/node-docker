@@ -4,7 +4,7 @@ services:
     ports:
       - "80:80"
   node-app:
-    depoly:
+    deploy:
       replicas: 8
       restart_policy:
         condition: any
